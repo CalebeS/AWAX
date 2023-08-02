@@ -207,15 +207,9 @@ header {
   border-radius: 20px;
 }
 
-
-
-
-
-
 /*
 CSS AREAS ESPECIFICAS
 */
-
 
 .section_aboutus {
   display: flex;
@@ -277,13 +271,13 @@ CSS AREAS ESPECIFICAS
 
 .section_projects-filters {
   border: 1px solid #999;
-  background-color: #EEEE;
+  background-color: #eeee;
   border-radius: 30px;
   display: inline-block;
   padding: 0px 20px;
 }
 
-.section_projects-filters ul, 
+.section_projects-filters ul,
 .section_projects-filters li {
   list-style: none;
 }
@@ -295,7 +289,7 @@ CSS AREAS ESPECIFICAS
   text-transform: uppercase;
   font-size: 13px;
   border-left: 1px solid #999;
-  border-bottom: 3px solid #EEE;
+  border-bottom: 3px solid #eee;
   cursor: pointer;
 }
 
@@ -305,4 +299,49 @@ CSS AREAS ESPECIFICAS
 
 .section_projects-filters li:first-child {
   border-left: 0;
+}
+
+.section_projects_fotos {
+  width: 100vw;
+  max-width: 1140px;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section_projects_foto {
+  width: 280px;
+}
+
+.section_projects_fotoarea {
+  margin: 10px;
+  width: 260px;
+  height: 160px;
+}
+
+.section_projects_fotoarea img {
+  width: 260px;
+  height: 160px;
+}
+
+.section_projects_fotoinfo {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 260px;
+  height: 160px;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.section_projects_fotoinfo h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.section_projects_fotoarea:hover .section_projects_fotoinfo {
+  display: flex;
 }
