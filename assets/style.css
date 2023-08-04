@@ -375,7 +375,7 @@ CSS AREAS ESPECIFICAS
   height: 100%;
   min-height: 300px;
   display: inline-block;
-  background-color: #FFF;
+  background-color: #fff;
   margin-right: 20px;
 }
 
@@ -426,3 +426,378 @@ CSS AREAS ESPECIFICAS
 .section_team-social a:hover {
   background-color: #b28756;
 }
+
+.testimonials .section_body {
+  max-width: initial;
+}
+
+.section_testimonials {
+  overflow: hidden;
+}
+
+.section_testimonials .sliders {
+  width: 1000vw;
+  height: 100%;
+}
+
+.section_testimonials .slide {
+  width: 100vw;
+  height: 100%;
+  display: inline-block;
+}
+
+.section_testimonials .slidearea {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.section_testimonials-avatar {
+  width: 100px;
+}
+
+.section_testimonials-name {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.section_testimonials-role {
+  font-size: 14px;
+}
+.section_testimonials-quoteimg {
+  width: 20px;
+  margin-top: 30px;
+}
+.section_testimonials-quote {
+  margin-top: 10px;
+  font-size: 13px;
+  max-width: 700px;
+  color: #020202;
+  font-weight: 600;
+  text-align: center;
+  line-height: 25px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.section_testimonials .sliders_pointers {
+  width: 100vw;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.section_testimonials .pointer {
+  width: 15px;
+  height: 15px;
+  border: 2px solid #b28756;
+  border-radius: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.section_testimonials .pointer.active {
+  background-color: #b28756;
+}
+
+.section_companies-area {
+  display: flex;
+  align-items: center;
+}
+
+.section_companies {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.section_company {
+  flex: 1;
+  text-align: center;
+}
+
+.section_price {
+  display: flex;
+}
+
+.section_price-item {
+  flex: 1;
+  background-color: #fff;
+  margin-right: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.section_price-item:last-child {
+  margin-right: 0;
+}
+
+.section_price-item-name {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.section_price-item-money {
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+.section_price-item-period {
+  color: #999;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.section-price-item-point {
+  font-size: 12px;
+}
+
+.premium {
+  background-color: #fff !important;
+  border-top: 1px solid #ccc;
+}
+.premium .section_body {
+  max-width: initial;
+}
+.section_premium {
+  overflow: hidden;
+}
+.section_premium a {
+  margin-top: 30px;
+}
+.section_premium .sliders {
+  width: 1000vw;
+  height: 100%;
+}
+.section_premium .slide {
+  width: 100vw;
+  height: 100%;
+  display: inline-block;
+}
+.section_premium .slidearea {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  max-width: 1140px;
+  border-bottom: 1px solid #ccc;
+  margin: auto;
+  padding-bottom: 40px;
+}
+.section_premium-left {
+  flex: 1;
+  text-align: right;
+}
+.section_premium-left img {
+  width: 300px;
+  margin-right: 30px;
+}
+.section_premium-right {
+  flex: 1;
+}
+.section_premium-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+.section_premium-item img {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+.section_premium-item div {
+  flex: 1;
+  color: #999;
+  line-height: 20px;
+}
+.section_premium-item div h4 {
+  color: #000;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.section_premium .sliders_pointers {
+  width: 100vw;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.section_premium .pointer {
+  width: 15px;
+  height: 15px;
+  border: 2px solid #b28756;
+  border-radius: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.section-premium .pointer.active {
+  background-color: #b28756;
+}
+
+.section_facts {
+  display: flex;
+}
+
+.section_facts-item {
+  flex: 1;
+  text-align: center;
+  padding: 15px;
+}
+
+.section_facts h3 {
+  color: #b28756;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.section_facts-line {
+  width: 20px;
+  border-bottom: 2px solid #b28756;
+  margin: auto;
+}
+
+.section_facts h4 {
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.section_facts p {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #999;
+}
+
+.section_contact {
+  max-width: 450px;
+  margin: auto;
+  text-align: center;
+}
+
+.section_contact input[type="text"],
+.section_contact textarea {
+  display: block;
+  width: 100%;
+  height: 40px;
+  border: 0;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  outline: 0;
+  margin-top: 10px;
+}
+
+.section_contact textarea {
+  height: 100px;
+  resize: none;
+}
+.section_contact-split {
+  display: flex;
+}
+.section_contact-split input:first-child {
+  margin-right: 20px;
+}
+
+.section_map {
+  background-image: url("../assets/image/complementos/mapa.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.section_map-area {
+  width: 100vw;
+  max-width: 1140px;
+  margin: auto;
+}
+.section_map-info {
+  width: 50%;
+  padding: 30px;
+  background-color: #fff;
+  color: #000;
+}
+.section_map-info-item {
+  display: flex;
+  align-items: center;
+  color: #999;
+  margin-bottom: 10px;
+}
+.section_map-info-item-img {
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  background-color: #999;
+  border-radius: 15px;
+  margin-right: 15px;
+}
+.section_map-info-item-img img {
+  width: 15px;
+  height: auto;
+}
+
+footer {
+  background-color: #000;
+  padding: 20px;
+}
+.footer_area {
+  max-width: 1140px;
+  margin: auto;
+  color: #fff;
+  display: flex;
+}
+.footer_item {
+  flex: 1;
+}
+.footer_social {
+  display: flex;
+}
+.footer_social a {
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 13px;
+  margin-right: 10px;
+}
+.footer_social a:hover {
+  background-color: #b28756;
+}
+.footer_social img {
+  height: 10px;
+}
+.footer_item.area2 {
+  color: #999;
+  line-height: 20px;
+  font-size: 13px;
+  padding: 0 10px 10px 10px;
+}
+.footer_item.area3 form {
+  background-color: #333;
+  text-align: center;
+  padding: 30px;
+}
+.footer_item.area3 input {
+  width: 100%;
+  height: 40px;
+  border: 0;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  outline: 0;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+}
+
+
